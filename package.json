@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@ai16z/client-discord": "0.1.5-alpha.3",
+    "@ai16z/eliza": "0.1.5-alpha.3",
+    "agent-twitter-client": "0.0.16",
+    "glob": "11.0.0",
+    "zod": "3.23.8"
+  }
 }
