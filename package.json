@@ -2,8 +2,11 @@
   "name": "ai-agent-integrations",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app/route.js",
   "scripts": {
+    "build": "tsc",
+    "start": "ts-node -r dotenv/config src/app/route.ts",
+    "dev": "ts-node-dev -r dotenv/config src/app/route.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,5 +19,12 @@
     "glob": "11.0.0",
     "uuid": "^11.0.3",
     "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
   }
 }
